@@ -218,7 +218,7 @@ Retail-Sales-ETL-Pipeline/
    ```
 
 4. Copy `.env.example` to `.env` and configure the SQL Server connection.
-5. Download `Online Retail.xlsx` and place it inside `data/raw/`.
+5. Create the 'data/raw' directory in the project folder. Download the UCI Online Retail dataset and place Online Retail.xlsx inside it. The pipeline creates     'data/processed' automatically.
 6. Execute `01_create_database.sql` and `02_create_tables.sql` in SQL Server Management Studio.
 7. Run the complete pipeline:
 
