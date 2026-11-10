@@ -1,0 +1,29 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Raw and processed datasets
+data/raw/*
+data/processed/*
+
+# Pipeline execution logs
+logs/*
+*.log
+
+# VS Code local settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
